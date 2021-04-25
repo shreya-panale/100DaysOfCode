@@ -6,4 +6,6 @@ https://www.geeksforgeeks.org/100-days-of-code-a-complete-guide-for-beginners-an
 
 Day 0 : 
 - Finally decided to take on this challenge :)
-- Cannot decide between Python or C yet, hence I will be coding in both the languages depending on my mood XD
+- I will be mostly coding in C, but also solve python questions on few days ig
+
+Week 1 : Basics
