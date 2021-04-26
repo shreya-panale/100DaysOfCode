@@ -15,25 +15,25 @@ Following are the examples of some very common data types used in C:
 
 - It’s a type which is used to represent the size of objects in bytes and is therefore used as the return type by the sizeof operator
 - It is guaranteed to be big enough to contain the size of the biggest object the host system can handle
-    - if the compiler is 32 bit then it is simply a typedef(i.e., alias) for unsigned int
-    - if the compiler is 64 bit then it would be a typedef for unsigned long long
+    - if the compiler is **32 bit** then it is simply a typedef(i.e., alias) for **unsigned int**
+    - if the compiler is **64 bit** then it would be a typedef for **unsigned long long**
 - The size_t data type is never negative
 
 
 
 ## Type Conversion in C
-1. Implicit Type Conversion / Automatic
+1. **Implicit Type Conversion / Automatic**
 
-    - Done by the compiler on its own, without any external trigger from the user.
+    - Done by the **compiler** on its own, without any external trigger from the user.
     - Generally takes place when in an expression more than one data type is present. In such condition type conversion (type promotion) takes place to avoid loss of data
     - All the data types of the variables are upgraded to the data type of the variable with largest data type
     
           bool -> char -> short int -> int -> unsigned int -> long -> unsigned -> long long -> float -> double -> long double
     - It is possible for implicit conversions to lose information, signs can be lost (when signed is implicitly converted to unsigned), and overflow can occur (when long long is implicitly converted to float)
 
-2. Explicit Type Conversion
+2. **Explicit Type Conversion**
 
-    - This process is also called type casting and it is user defined
+    - This process is also called **type casting** and it is **user defined**
     - Here the user can type cast the result to make it of a particular data type
     
           Syntax : (type) expression
