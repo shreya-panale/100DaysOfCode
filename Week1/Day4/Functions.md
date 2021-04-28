@@ -104,3 +104,34 @@ A **function** is a set of statements that take inputs, do some specific computa
     - C99
         - compilers can no longer assume return type as int
         - backward compatible : compilers throw the **warning** saying that the return type is assumed as int and go ahead with compilation
+
+## 6. Static functions in C
+- The "static" keyword before a function name makes it static
+- Access to static functions is restricted to the file where they are declared
+
+## 7. Callbacks in C
+- If a reference of a function is passed to another function as an argument to call it, then it will be called as a Callback function
+
+        #include<stdio.h>
+  
+        void A()
+        {
+            printf("I am function A\n");
+        }
+        
+        // callback function
+        void B(void (*ptr)())
+        {
+            (*ptr) (); // callback to A
+        }
+        
+        int main()
+        {
+            void (*ptr)() = &A;
+            
+            // calling function B and passing address of the function A as argument
+            B(ptr);
+        
+        return 0;
+        }
+Output : I am function A
