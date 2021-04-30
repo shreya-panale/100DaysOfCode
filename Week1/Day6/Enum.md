@@ -2,9 +2,9 @@
 - It is a user defined data type in C
 - Used to **assign names** to integral constants
 
-<p align="center"><img src ="https://www.geeksforgeeks.org/wp-content/uploads/Enum-In-C.png"></img></p>
+<p align="center"><img src ="https://www.geeksforgeeks.org/wp-content/uploads/Enum-In-C.png" width="500"></img></p>
 
-- Example :
+- **Example** :
 
         enum flag{constant1, constant2, constant3, ....... };
         enum flag flagX;
@@ -14,7 +14,7 @@
         - constant1 = 0, constant2 = 1, constant3 = 2 and so on
     - flagX = 1
 
-- Initilaization of values:
+## Initilaization of values :
 - ***i.*** Two enum names can have **same value**
 
         enum State {Working = 1, Failed = 0, Freezed = 0};
@@ -31,14 +31,14 @@
         enum result {failed, passed};
         
         int main()  { return 0; }
-    
-- Output :
+          
+  - **Output** :
 
         Compile Error: 'failed' has a previous declaration as 'state failed'
 
-## Enum vs Macro
+## Enum vs Macro :
 
-Macro :
+**Macro** :
 
     #define Working 0
     #define Failed 1
