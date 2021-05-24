@@ -11,4 +11,6 @@ Day 0 :
 
 [Week 2 : Basics of C](https://github.com/ShreyaPanale/100DaysOfCode/tree/main/Week2)
 
-[Week3 : Linear Data Structures](https://github.com/ShreyaPanale/100DaysOfCode/tree/main/Week3)
+[Week 3 : Linear Data Structures](https://github.com/ShreyaPanale/100DaysOfCode/tree/main/Week3)
+
+[Week 4 : Non-Linear Data Structures](https://github.com/ShreyaPanale/100DaysOfCode/tree/main/Week4)
