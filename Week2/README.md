@@ -32,4 +32,4 @@
 
 ## Day14
 
-- Misc Questions
+- Practice Questions from HackerEarth -> Basic Input/Output
